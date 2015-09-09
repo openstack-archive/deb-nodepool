@@ -1,0 +1,67 @@
+Source: nodepool
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Antoine Musso <hashar@free.fr>
+Priority: optional
+Section: python
+Build-Depends: adduser,
+               debhelper (>=9),
+               dh-python,
+               openstack-pkg-tools,
+               python-all,
+               python-pbr,
+Build-Depends-Indep: python-apscheduler (>= 2.1.1),
+                     python-daemon,
+                     python-daemon (>= 2.0.4),
+                     python-diskimage-builder,
+                     python-extras,
+                     python-gear,
+                     python-glanceclient,
+                     python-jenkins,
+                     python-keystoneclient,
+                     python-novaclient (>= 2:2.21.0),
+                     python-novaclient (>=2.21.0),
+                     python-paramiko,
+                     python-prettytable,
+                     python-pymysql,
+                     python-six (>= 1.7.0),
+                     python-sqlalchemy (>= 0.8.2),
+                     python-statsd,
+                     python-voluptuous,
+                     python-yaml,
+                     python-zmq,
+Standards-Version: 3.9.6
+Homepage: http://ci.openstack.org/nodepool/
+Vcs-Git: https://review.openstack.org/openstack-infra/nodepool.git
+Vcs-Browser: https://review.openstack.org/gitweb?p=openstack-infra/nodepool.git
+
+Package: nodepool
+Architecture: any
+Pre-Depends: python2.7,
+Depends: parted,
+         python-apscheduler (>= 2.1.1),
+         python-daemon (>= 2.0.4),
+         python-diskimage-builder,
+         python-extras,
+         python-gear,
+         python-glanceclient,
+         python-jenkins,
+         python-keystoneclient,
+         python-novaclient (>= 2:2.21.0),
+         python-paramiko,
+         python-pbr,
+         python-prettytable,
+         python-pymysql,
+         python-six (>= 1.7.0),
+         python-sqlalchemy (>= 0.8.2),
+         python-statsd,
+         python-voluptuous,
+         python-yaml,
+         python-zmq,
+         ${misc:Depends},
+         ${python:Depends},
+         ${shlibs:Depends},
+Description: Launch single use test nodes on OpenStack
+ Nodepool is a system for launching single-use test nodes on demand based on
+ images built with cached data. It is designed to work with any OpenStack based
+ cloud, and is part of a suite of tools that form a comprehensive test system
+ including Jenkins and Zuul.

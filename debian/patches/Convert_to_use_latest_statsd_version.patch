@@ -1,0 +1,124 @@
+Description: Convert to use latest statsd version
+ Convert to use latest statsd version
+ .
+ statsd >= 3.0 changed the way it initializes itself; to start-up from
+ environment variables you need to import from 'statsd.defaults.env'.
+ It is also slightly different in that it provides default values; so
+ we check if the environment variable is set and avoid importing it if
+ statsd isn't configured.
+ .
+ This moves the statsd object creation into a common module so it can
+ be shared rather than create multiple clients.
+ .
+ Documentation is also updated to describe how to configure this
+Author: Ian Wienand <iwienand@redhat.com>
+Date: Wed, 8 Apr 2015 23:53:19 +0000 (+1000)
+X-Git-Url: https://review.openstack.org/gitweb?p=openstack-infra%2Fnodepool.git;a=commitdiff_plain;h=5662105de4ff4c2270a22de832ef481f325915f0
+Change-Id: I4791c9d26f2309f78a556de42af5b9945005aa46
+Origin: upstream, https://review.openstack.org/#/c/171890/
+Last-Update: 2015-09-08
+
+diff --git a/doc/source/installation.rst b/doc/source/installation.rst
+index 2b49519..3b3d47b 100644
+--- a/doc/source/installation.rst
++++ b/doc/source/installation.rst
+@@ -41,8 +41,11 @@ number of nodes you expect to be in use at once.
+ Statsd and Graphite
+ ~~~~~~~~~~~~~~~~~~~
+ 
+-If you have a Graphite system with statsd, Nodepool can be configured
+-to send information to statsd.
++If you have a Graphite system with ``statsd``, Nodepool can be
++configured to send information to it.  Set the environment variable
++``STATSD_HOST`` to the ``statsd`` hostname (and optionally
++``STATSD_PORT`` if this should be different to the default ``8125``)
++for the Nodepool daemon to enable this support.
+ 
+ Install Nodepool
+ ----------------
+diff --git a/nodepool/nodepool.py b/nodepool/nodepool.py
+index b4bdacf..6b151a9 100644
+--- a/nodepool/nodepool.py
++++ b/nodepool/nodepool.py
+@@ -16,7 +16,6 @@
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ 
+-from statsd import statsd
+ import apscheduler.scheduler
+ import gear
+ import json
+@@ -38,6 +37,7 @@ import jenkins_manager
+ import nodedb
+ import nodeutils as utils
+ import provider_manager
++from stats import statsd
+ 
+ MINS = 60
+ HOURS = 60 * MINS
+diff --git a/nodepool/stats.py b/nodepool/stats.py
+new file mode 100644
+index 0000000..b926c70
+--- /dev/null
++++ b/nodepool/stats.py
+@@ -0,0 +1,34 @@
++#!/usr/bin/env python
++#
++# Licensed under the Apache License, Version 2.0 (the "License"); you may
++# not use this file except in compliance with the License. You may obtain
++# a copy of the License at
++#
++#      http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
++# WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
++# License for the specific language governing permissions and limitations
++# under the License.
++
++"""
++Import and set `statsd` if STATSD_HOST is present in the
++environment, else set it to None.  This mirrors the behaviour of old
++releases of upstream statsd and avoids us having to change anything
++else.
++"""
++
++import os
++import logging
++
++log = logging.getLogger("nodepool.stats")
++
++if os.getenv('STATSD_HOST', None):
++    from statsd.defaults.env import statsd
++    log.info("Statsd reporting to %s:%s" %
++             (os.getenv('STATSD_HOST'),
++              os.getenv('STATSD_PORT', '8125')))
++else:
++    log.info("Statsd reporting disabled")
++    statsd = None
+diff --git a/nodepool/task_manager.py b/nodepool/task_manager.py
+index e48de1a..8183b25 100644
+--- a/nodepool/task_manager.py
++++ b/nodepool/task_manager.py
+@@ -21,7 +21,7 @@ import threading
+ from six.moves import queue as Queue
+ import logging
+ import time
+-from statsd import statsd
++from stats import statsd
+ import requests.exceptions
+ 
+ 
+diff --git a/requirements.txt b/requirements.txt
+index 811d46b..bac6391 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -6,7 +6,7 @@ python-jenkins
+ paramiko>1.9.0
+ python-daemon>=2.0.4
+ extras
+-statsd>=1.0.0,<3.0
++statsd>=3.0
+ apscheduler>=2.1.1,<3.0
+ sqlalchemy>=0.8.2,<0.9.0
+ pyzmq>=13.1.0,<14.0.0

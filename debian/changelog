@@ -1,0 +1,5 @@
+nodepool (0.1.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #781027)
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 08 Sep 2015 14:30:50 +0200
