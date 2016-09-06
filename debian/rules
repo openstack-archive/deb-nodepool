@@ -8,6 +8,6 @@ export OSLO_PACKAGE_VERSION=$(VERSION)
 	dh $@ --with python2
 
 override_dh_auto_build:
-        dh_auto_build -O--buildsystem=python_distutils
+	dh_auto_build -O--buildsystem=python_distutils
 
-        /usr/share/openstack-pkg-tools/pkgos_insert_include pkgos_func nodepool.postinst
+#        /usr/share/openstack-pkg-tools/pkgos_insert_include pkgos_func nodepool.postinst
