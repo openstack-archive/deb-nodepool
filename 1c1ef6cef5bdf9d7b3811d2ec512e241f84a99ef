@@ -1,0 +1,14 @@
+Code-Review+2: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Code-Review+1: Antoine Musso <hashar@free.fr>
+Code-Review+1: greghaynes <greg@greghaynes.net>
+Code-Review+1: yolanda.robla <yroblamo@redhat.com>
+Code-Review+2: Ian Wienand <iwienand@redhat.com>
+Code-Review+1: K Jonathan Harker <code@gentlydownthe.net>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sun, 15 Nov 2015 14:31:15 +0000
+Reviewed-on: https://review.openstack.org/200727
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

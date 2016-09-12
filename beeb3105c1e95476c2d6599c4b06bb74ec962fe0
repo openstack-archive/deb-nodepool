@@ -1,0 +1,10 @@
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Code-Review+1: yolanda.robla <yroblamo@redhat.com>
+Code-Review+2: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Workflow+1: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 14 Jul 2015 10:59:46 +0000
+Reviewed-on: https://review.openstack.org/201302
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

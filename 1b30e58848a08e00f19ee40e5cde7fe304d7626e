@@ -1,0 +1,14 @@
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Code-Review+1: greghaynes <greg@greghaynes.net>
+Code-Review+1: yolanda.robla <yroblamo@redhat.com>
+Code-Review+1: Clint Adams <clint@gcfm.net>
+Code-Review+1: K Jonathan Harker <code@gentlydownthe.net>
+Code-Review+2: Ian Wienand <iwienand@redhat.com>
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Workflow+1: Clark Boylan <cboylan@sapwetik.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 14 Aug 2015 21:18:00 +0000
+Reviewed-on: https://review.openstack.org/186819
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

@@ -1,0 +1,11 @@
+Code-Review+1: greghaynes <greg@greghaynes.net>
+Code-Review+1: yolanda.robla <yroblamo@redhat.com>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 18 Jun 2015 17:38:59 +0000
+Reviewed-on: https://review.openstack.org/192789
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

@@ -1,0 +1,15 @@
+Code-Review+1: Ramy Asselin <ramy.asselin@hpe.com>
+Code-Review+1: John Griffith <john.griffith8@gmail.com>
+Code-Review+2: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Code-Review+1: Timothy R. Chavez <timrchavez@us.ibm.com>
+Code-Review+1: yolanda.robla <yroblamo@redhat.com>
+Code-Review+1: Arkadiy Kraminsky <arkadiy.kraminsky@hp.com>
+Code-Review+1: Ricardo Carrillo Cruz <ricardo.carrillo.cruz@gmail.com>
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Workflow+1: Clark Boylan <cboylan@sapwetik.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 20 Aug 2015 17:38:49 +0000
+Reviewed-on: https://review.openstack.org/214399
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

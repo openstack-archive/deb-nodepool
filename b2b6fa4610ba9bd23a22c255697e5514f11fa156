@@ -1,0 +1,11 @@
+Code-Review+2: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Code-Review+1: Morgan Fainberg <morgan.fainberg@gmail.com>
+Code-Review+1: Sam Yaple <sam@yaple.net>
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Workflow+1: James E. Blair <corvus@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 15 Jul 2016 00:04:27 +0000
+Reviewed-on: https://review.openstack.org/289678
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

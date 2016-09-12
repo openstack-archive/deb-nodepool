@@ -1,0 +1,10 @@
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Code-Review+1: yolanda.robla <yroblamo@redhat.com>
+Workflow+1: James E. Blair <corvus@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 18 Sep 2015 18:33:29 +0000
+Reviewed-on: https://review.openstack.org/224821
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

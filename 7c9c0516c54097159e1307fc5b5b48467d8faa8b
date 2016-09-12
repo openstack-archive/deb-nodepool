@@ -1,0 +1,14 @@
+Code-Review+1: Michal Rostecki <michal.rostecki@gmail.com>
+Code-Review+1: Vikram Hosakote <vhosakot@cisco.com>
+Code-Review+2: yolanda.robla <yroblamo@redhat.com>
+Code-Review+1: Swapnil Kulkarni (coolsvap) <me@coolsvap.net>
+Code-Review+1: Andrei-Lucian Șerb <lucian.serb@icloud.com>
+Code-Review+1: Kyle Mestery <mestery@mestery.com>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 18 Apr 2016 14:34:26 +0000
+Reviewed-on: https://review.openstack.org/306835
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

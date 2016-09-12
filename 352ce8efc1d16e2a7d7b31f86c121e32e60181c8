@@ -1,0 +1,10 @@
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Code-Review+1: Spencer Krum <nibz@spencerkrum.com>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 11 Feb 2016 23:40:01 +0000
+Reviewed-on: https://review.openstack.org/277941
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

@@ -1,0 +1,13 @@
+Code-Review+1: Ian Wienand <iwienand@redhat.com>
+Code-Review+1: George Peristerakis <gperiste@redhat.com>
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Code-Review+1: Clint Adams <clint@gcfm.net>
+Code-Review+1: greghaynes <greg@greghaynes.net>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sat, 04 Jul 2015 03:10:12 +0000
+Reviewed-on: https://review.openstack.org/187668
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

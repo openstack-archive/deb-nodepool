@@ -1,0 +1,11 @@
+Code-Review+2: yolanda.robla <yroblamo@redhat.com>
+Code-Review+1: K Jonathan Harker <code@gentlydownthe.net>
+Code-Review+1: weiyu <spunkzwy@gmail.com>
+Code-Review+2: Ian Wienand <iwienand@redhat.com>
+Workflow+1: Ian Wienand <iwienand@redhat.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 03 Feb 2016 00:10:25 +0000
+Reviewed-on: https://review.openstack.org/232974
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

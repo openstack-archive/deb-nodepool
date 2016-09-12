@@ -1,0 +1,8 @@
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sun, 15 Nov 2015 21:16:54 +0000
+Reviewed-on: https://review.openstack.org/245582
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

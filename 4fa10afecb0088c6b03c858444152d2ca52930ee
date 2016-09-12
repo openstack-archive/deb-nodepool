@@ -1,0 +1,9 @@
+Code-Review+2: Elizabeth K. Joseph <lyz@princessleia.com>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 21 Aug 2015 11:51:54 +0000
+Reviewed-on: https://review.openstack.org/211754
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

@@ -1,0 +1,10 @@
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Code-Review+2: Ian Wienand <iwienand@redhat.com>
+Code-Review+1: greghaynes <greg@greghaynes.net>
+Workflow+1: Ian Wienand <iwienand@redhat.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 19 Jan 2016 21:15:56 +0000
+Reviewed-on: https://review.openstack.org/269266
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

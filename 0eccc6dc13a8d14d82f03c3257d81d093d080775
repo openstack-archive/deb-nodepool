@@ -1,0 +1,9 @@
+Code-Review+1: greghaynes <greg@greghaynes.net>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sun, 08 Nov 2015 15:05:24 +0000
+Reviewed-on: https://review.openstack.org/240386
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

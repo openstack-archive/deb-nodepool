@@ -1,0 +1,9 @@
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 07 Aug 2015 00:14:53 +0000
+Reviewed-on: https://review.openstack.org/210149
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

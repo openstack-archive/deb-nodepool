@@ -1,0 +1,11 @@
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Code-Review+1: yolanda.robla <yroblamo@redhat.com>
+Code-Review+1: K Jonathan Harker <code@gentlydownthe.net>
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Workflow+1: James E. Blair <corvus@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 22 Sep 2015 01:11:54 +0000
+Reviewed-on: https://review.openstack.org/219324
+Project: openstack/deb-nodepool
+Branch: refs/heads/master

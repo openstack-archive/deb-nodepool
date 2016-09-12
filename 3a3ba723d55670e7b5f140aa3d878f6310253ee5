@@ -1,0 +1,8 @@
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Verified+2: James E. Blair <corvus@inaugust.com>
+Workflow+1: James E. Blair <corvus@inaugust.com>
+Submitted-by: James E. Blair <corvus@inaugust.com>
+Submitted-at: Thu, 04 Aug 2016 22:32:54 +0000
+Reviewed-on: https://review.openstack.org/351419
+Project: openstack/deb-nodepool
+Branch: refs/heads/master
