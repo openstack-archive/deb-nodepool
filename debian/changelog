@@ -1,9 +1,3 @@
-nodepool (0.1.1-2) UNRELEASED; urgency=medium
-
-  * d/rules: Changed UPSTREAM_GIT protocol to https
-
- -- Ondřej Nový <novy@ondrej.org>  Thu, 19 May 2016 21:03:21 +0200
-
 nodepool (0.1.1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #781027)
