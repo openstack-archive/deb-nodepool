@@ -1,0 +1,11 @@
+Code-Review+2: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Code-Review+1: Tobias Henkel <tobias.henkel@bmw.de>
+Code-Review+1: Lenny Verkhovsky <lennyb@mellanox.com>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 28 Sep 2016 15:16:08 +0000
+Reviewed-on: https://review.openstack.org/364151
+Project: openstack/deb-nodepool
+Branch: refs/heads/master
