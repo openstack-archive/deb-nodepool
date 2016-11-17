@@ -1,0 +1,10 @@
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Code-Review+1: Timothy R. Chavez <timrchavez@us.ibm.com>
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Workflow+1: Clark Boylan <cboylan@sapwetik.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 16 Nov 2016 22:07:55 +0000
+Reviewed-on: https://review.openstack.org/398379
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3

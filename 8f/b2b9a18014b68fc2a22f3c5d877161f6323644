@@ -1,0 +1,9 @@
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Workflow+1: Clark Boylan <cboylan@sapwetik.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 17 Nov 2016 00:26:59 +0000
+Reviewed-on: https://review.openstack.org/398602
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
