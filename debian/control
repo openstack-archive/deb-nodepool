@@ -4,7 +4,7 @@ Uploaders: Thomas Goirand <zigo@debian.org>, Antoine Musso <hashar@free.fr>
 Priority: optional
 Section: python
 Build-Depends: adduser,
-               debhelper (>=9),
+               debhelper (>= 10),
                dh-python,
                openstack-pkg-tools,
                python-all,
@@ -31,8 +31,8 @@ Build-Depends-Indep: python-apscheduler (>= 2.1.1),
                      python-zmq,
 Standards-Version: 3.9.6
 Homepage: http://ci.openstack.org/nodepool/
-Vcs-Git: https://anonscm.debian.org/git/openstack/nodepool.git
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/nodepool.git/
+Vcs-Git: https://git.openstack.org/openstack/deb-nodepool -b debian/newton
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-nodepool?h=debian%2Fnewton
 
 Package: nodepool
 Architecture: any

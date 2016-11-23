@@ -1,6 +1,9 @@
 nodepool (0.1.1-2) UNRELEASED; urgency=medium
 
   * d/rules: Changed UPSTREAM_GIT protocol to https
+  * d/s/options: extend-diff-ignore of .gitreview
+  * d/control: Using OpenStack's Gerrit as VCS URLs.
+  * Bumped debhelper compat version to 10
 
  -- Ondřej Nový <novy@ondrej.org>  Thu, 19 May 2016 21:03:21 +0200
 
