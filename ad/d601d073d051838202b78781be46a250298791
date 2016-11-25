@@ -1,0 +1,9 @@
+Code-Review+2: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Code-Review+2: Ricardo Carrillo Cruz <ricardo.carrillo.cruz@gmail.com>
+Workflow+1: Ricardo Carrillo Cruz <ricardo.carrillo.cruz@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 25 Nov 2016 09:41:32 +0000
+Reviewed-on: https://review.openstack.org/399177
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
