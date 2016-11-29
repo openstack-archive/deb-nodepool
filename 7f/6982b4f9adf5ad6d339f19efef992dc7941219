@@ -1,0 +1,9 @@
+Code-Review+2: Paul Belanger <pabelanger@redhat.com>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 28 Nov 2016 13:37:15 +0000
+Reviewed-on: https://review.openstack.org/400422
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
