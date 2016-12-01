@@ -1,0 +1,10 @@
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Code-Review+1: David Shrewsbury <shrewsbury.dave@gmail.com>
+Code-Review+2: Ian Wienand <iwienand@redhat.com>
+Workflow+1: Ian Wienand <iwienand@redhat.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 01 Dec 2016 01:15:01 +0000
+Reviewed-on: https://review.openstack.org/404891
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3

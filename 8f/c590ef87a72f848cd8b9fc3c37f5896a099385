@@ -1,0 +1,9 @@
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Code-Review+2: Paul Belanger <pabelanger@redhat.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 30 Nov 2016 16:25:17 +0000
+Reviewed-on: https://review.openstack.org/400836
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
