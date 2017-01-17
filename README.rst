@@ -1,3 +1,12 @@
+=======
+WARNING
+=======
+
+This branch container work that is intended to be ephemeral to allow bridging
+a nodepool written for zuul v3 with an existing zuul v2.5 installation.
+
+Here be dragons.
+
 Nodepool
 ========
 
