@@ -1,0 +1,9 @@
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 31 Jan 2017 12:21:27 +0000
+Reviewed-on: https://review.openstack.org/424974
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
