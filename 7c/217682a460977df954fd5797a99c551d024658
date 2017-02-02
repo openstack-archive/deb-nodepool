@@ -1,0 +1,9 @@
+Code-Review+1: Sean Dague <sean@dague.net>
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Workflow+1: James E. Blair <corvus@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 31 Jan 2017 23:17:03 +0000
+Reviewed-on: https://review.openstack.org/427390
+Project: openstack/deb-nodepool
+Branch: refs/heads/master
