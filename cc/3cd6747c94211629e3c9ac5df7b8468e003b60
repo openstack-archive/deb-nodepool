@@ -1,0 +1,9 @@
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Code-Review+2: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Workflow+1: James E. Blair <corvus@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 06 Feb 2017 16:06:53 +0000
+Reviewed-on: https://review.openstack.org/427393
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
