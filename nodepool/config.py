@@ -289,7 +289,8 @@ def loadConfig(config_path):
         l.name = label['name']
         newconfig.labels[l.name] = l
         l.image = label['image']
-        l.min_ready = label.get('min-ready', 2)
+        # Forcing min-ready to zero to let nodepool v3 do it
+        l.min_ready = 0
         l.subnodes = label.get('subnodes', 0)
         l.ready_script = label.get('ready-script')
         l.providers = {}

@@ -114,15 +114,6 @@ class TestNodepoolCMD(tests.DBTestCase):
         self.patch_argv("-c", configfile, "alien-image-list")
         nodepoolcmd.main()
 
-    def test_list_nodes(self):
-        configfile = self.setup_config('node.yaml')
-        self._useBuilder(configfile)
-        pool = self.useNodepool(configfile, watermark_sleep=1)
-        pool.start()
-        self.waitForImage('fake-provider', 'fake-image')
-        self.waitForNodes(pool)
-        self.assert_nodes_listed(configfile, 1)
-
     def test_config_validate(self):
         config = os.path.join(os.path.dirname(tests.__file__),
                               'fixtures', 'config_validate', 'good.yaml')
@@ -183,52 +174,6 @@ class TestNodepoolCMD(tests.DBTestCase):
         # Check that fake-image-0000000001 doesn't exist
         self.assert_listed(
             configfile, ['dib-image-list'], 0, 'fake-image-0000000001', 0)
-
-    def test_hold(self):
-        configfile = self.setup_config('node.yaml')
-        pool = self.useNodepool(configfile, watermark_sleep=1)
-        self._useBuilder(configfile)
-        pool.start()
-        self.waitForImage('fake-provider', 'fake-image')
-        self.waitForNodes(pool)
-        # Assert one node exists and it is node 1 in a ready state.
-        self.assert_listed(configfile, ['list'], 0, 1, 1)
-        self.assert_nodes_listed(configfile, 1, zk.READY)
-        # Hold node 1
-        self.patch_argv('-c', configfile, 'hold', '1')
-        nodepoolcmd.main()
-        # Assert the state changed to HOLD
-        self.assert_listed(configfile, ['list'], 0, 1, 1)
-        self.assert_nodes_listed(configfile, 1, 'hold')
-
-    def test_delete(self):
-        configfile = self.setup_config('node.yaml')
-        pool = self.useNodepool(configfile, watermark_sleep=1)
-        self._useBuilder(configfile)
-        pool.start()
-        self.waitForImage('fake-provider', 'fake-image')
-        self.waitForNodes(pool)
-        # Assert one node exists and it is node 1 in a ready state.
-        self.assert_listed(configfile, ['list'], 0, 1, 1)
-        self.assert_nodes_listed(configfile, 1, zk.READY)
-        # Delete node 1
-        self.assert_listed(configfile, ['delete', '1'], 10, 'delete', 1)
-
-    def test_delete_now(self):
-        configfile = self.setup_config('node.yaml')
-        pool = self.useNodepool(configfile, watermark_sleep=1)
-        self._useBuilder(configfile)
-        pool.start()
-        self.waitForImage( 'fake-provider', 'fake-image')
-        self.waitForNodes(pool)
-        # Assert one node exists and it is node 1 in a ready state.
-        self.assert_listed(configfile, ['list'], 0, 1, 1)
-        self.assert_nodes_listed(configfile, 1, zk.READY)
-        # Delete node 1
-        self.patch_argv('-c', configfile, 'delete', '--now', '1')
-        nodepoolcmd.main()
-        # Assert the node is gone
-        self.assert_listed(configfile, ['list'], 0, 1, 0)
 
     def test_image_build(self):
         configfile = self.setup_config('node.yaml')
