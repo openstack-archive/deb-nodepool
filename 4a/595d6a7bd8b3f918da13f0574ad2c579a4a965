@@ -1,0 +1,9 @@
+Code-Review+2: Paul Belanger <pabelanger@redhat.com>
+Code-Review+2: David Shrewsbury <shrewsbury.dave@gmail.com>
+Workflow+1: David Shrewsbury <shrewsbury.dave@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 15 Mar 2017 19:56:42 +0000
+Reviewed-on: https://review.openstack.org/435963
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/gearman-zk-shim
