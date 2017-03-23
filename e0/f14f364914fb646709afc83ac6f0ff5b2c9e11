@@ -1,0 +1,9 @@
+Code-Review+2: David Shrewsbury <shrewsbury.dave@gmail.com>
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Workflow+1: James E. Blair <corvus@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 14 Feb 2017 23:18:39 +0000
+Reviewed-on: https://review.openstack.org/433233
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3

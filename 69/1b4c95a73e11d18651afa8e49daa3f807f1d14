@@ -1,0 +1,9 @@
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Code-Review+2: Paul Belanger <pabelanger@redhat.com>
+Workflow+1: Paul Belanger <pabelanger@redhat.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 14 Mar 2017 20:58:18 +0000
+Reviewed-on: https://review.openstack.org/445557
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
