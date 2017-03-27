@@ -1,0 +1,11 @@
+Code-Review+1: Tobias Henkel <tobias.henkel@bmw.de>
+Code-Review+2: Joshua Hesketh <joshua.hesketh@rackspace.com>
+Code-Review+2: Paul Belanger <pabelanger@redhat.com>
+Code-Review+2: David Shrewsbury <shrewsbury.dave@gmail.com>
+Workflow+1: David Shrewsbury <shrewsbury.dave@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 27 Mar 2017 20:45:24 +0000
+Reviewed-on: https://review.openstack.org/449705
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
