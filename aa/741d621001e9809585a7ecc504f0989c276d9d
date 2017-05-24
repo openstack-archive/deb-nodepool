@@ -1,0 +1,9 @@
+Code-Review+2: Clint 'SpamapS' Byrum <clint@fewbar.com>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 24 May 2017 19:06:31 +0000
+Reviewed-on: https://review.openstack.org/466065
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
