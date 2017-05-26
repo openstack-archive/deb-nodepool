@@ -1,0 +1,9 @@
+Code-Review+2: Clint 'SpamapS' Byrum <clint@fewbar.com>
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Workflow+1: Clark Boylan <cboylan@sapwetik.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 26 May 2017 17:25:32 +0000
+Reviewed-on: https://review.openstack.org/468447
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3

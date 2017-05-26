@@ -1,0 +1,10 @@
+Code-Review+1: Tobias Henkel <tobias.henkel@bmw.de>
+Code-Review+2: Paul Belanger <pabelanger@redhat.com>
+Code-Review+2: Clint 'SpamapS' Byrum <clint@fewbar.com>
+Workflow+1: Clint 'SpamapS' Byrum <clint@fewbar.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 26 May 2017 17:02:08 +0000
+Reviewed-on: https://review.openstack.org/468405
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
