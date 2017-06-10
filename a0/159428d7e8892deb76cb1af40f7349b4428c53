@@ -1,0 +1,9 @@
+Code-Review+2: Paul Belanger <pabelanger@redhat.com>
+Code-Review+2: David Shrewsbury <shrewsbury.dave@gmail.com>
+Workflow+1: David Shrewsbury <shrewsbury.dave@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sat, 10 Jun 2017 02:20:48 +0000
+Reviewed-on: https://review.openstack.org/472128
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
