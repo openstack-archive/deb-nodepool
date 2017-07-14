@@ -1,0 +1,10 @@
+Code-Review+2: Clint 'SpamapS' Byrum <clint@fewbar.com>
+Code-Review+1: Jesse Keating <omgjlk@us.ibm.com>
+Code-Review+2: David Shrewsbury <shrewsbury.dave@gmail.com>
+Workflow+1: David Shrewsbury <shrewsbury.dave@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 14 Jul 2017 16:27:08 +0000
+Reviewed-on: https://review.openstack.org/482568
+Project: openstack/deb-nodepool
+Branch: refs/heads/feature/zuulv3
