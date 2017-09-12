@@ -1,8 +1,0 @@
-qemu-utils
-kpartx
-debootstrap
-yum-utils
-zookeeperd
-zypper
-# workarond for https://bugs.launchpad.net/ubuntu/+source/zypper/+bug/1639428
-gnupg2
